@@ -25,3 +25,25 @@ Python, PyTorch, NumPy, Scikit-learn, OpenCV, Streamlit
 - F1 Score: 95.69%
 - 5-Fold Cross Validation Accuracy: 95.57% ± 1.10%
 
+# 1) Clone repository
+git clone https://github.com/Prantik66/TongueVision-AI.git
+
+# 2) Move into project folder
+cd TongueVision-AI
+
+# 3) Create virtual environment
+python -m venv venv
+
+# 4) Activate virtual environment
+
+# Windows
+venv\Scripts\activate
+
+# Mac/Linux
+source venv/bin/activate
+
+# 5) Install dependencies
+pip install -r requirements.txt
+
+# 6) Run Streamlit application
+streamlit run app/app.py
