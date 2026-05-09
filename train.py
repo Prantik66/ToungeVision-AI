@@ -10,16 +10,11 @@ from dataset import TongueDataset
 from rbfnn import RBFNN
 
 
-# -----------------------------
 # device
-# -----------------------------
 device = torch.device("cpu")
 print("Using device:", device)
 
-
-# -----------------------------
 # load dataset
-# -----------------------------
 dataset = TongueDataset("dataset")
 loader = DataLoader(
     dataset,
@@ -29,10 +24,7 @@ loader = DataLoader(
 
 print("Total images:", len(dataset))
 
-
-# -----------------------------
 # load pretrained ResNet50
-# -----------------------------
 weights = ResNet50_Weights.DEFAULT
 model = resnet50(weights=weights)
 
@@ -47,9 +39,7 @@ feature_extractor.to(device)
 print("ResNet50 loaded.")
 
 
-# -----------------------------
 # extract features
-# -----------------------------
 all_features = []
 all_labels = []
 
