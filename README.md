@@ -16,8 +16,12 @@ custom-built Radial Basis Function Neural Network (RBFNN).
 **TECH STACK:**
 Python, PyTorch, NumPy, Scikit-learn, OpenCV, Streamlit
 
-**RESULTS:**
-Accuracy: 95.57%
-Specificity: 91%
-Sensitivity: 100%
+## PERFORMANCE METRICS
+
+- Accuracy: 95.50%
+- Precision: 91.74%
+- Recall (Sensitivity): 100%
+- Specificity: 91.00%
+- F1 Score: 95.69%
+- 5-Fold Cross Validation Accuracy: 95.57% ± 1.10%
 
